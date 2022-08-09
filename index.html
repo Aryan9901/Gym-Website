@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Aryan's Fitness Club</title>
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+     <style>
+          /**
+ * /* CSS RESET
+ *
+ * @format
+ */
+
+          /*  
+	/* overflow: hidden; */
+
+          body {
+               margin: 0;
+               padding: 0;
+               background: url("ag.jpg");
+               background-repeat: no-repeat;
+               background-attachment: fixed;
+               /* background-position: center; */
+               color: white;
+               font-family: "Baloo Bhai 2", cursive;
+               /* overflow: hidden; */
+          }
+
+          .left {
+               /* border: 2px solid red; */
+               display: inline-block;
+               position: absolute;
+               margin-left: 8px;
+               margin-top: -8px;
+               border-top-width: 1px;
+               top: 31px;
+               left: 13px;
+          }
+
+          .left img {
+               width: 106px;
+               height: 83px;
+               margin: 8px;
+               /* filter: invert(100%); */
+          }
+
+          .left div {
+               text-align: center;
+               font-size: 22px;
+          }
+
+          .mid {
+               display: block;
+               width: 51%;
+               margin: 37px auto;
+               /* border: 2px solid green; */
+          }
+
+          .right {
+               position: absolute;
+               top: 48px;
+               right: 34px;
+               display: inline-block;
+               /* border: 2px solid yellow; */
+          }
+
+          .navbar {
+               display: inline-block;
+          }
+
+          .navbar li {
+               display: inline-block;
+               font-size: 25px;
+          }
+
+          .navbar li a {
+               color: white;
+               text-decoration: none;
+               padding: 10px;
+          }
+
+          .navbar li a:hover,
+          .navbar li a:active {
+               text-decoration: underline;
+               color: gray;
+          }
+
+          .btn {
+               font-family: "Baloo Bhai 2", cursive;
+               margin: 0 9px;
+               background-color: black;
+               color: white;
+               padding: 4px 14px;
+               border: 2px solid grey;
+               border-radius: 10px;
+               font-size: 20px;
+               cursor: pointer;
+          }
+
+          .btn:hover {
+               background-color: rgb(71, 71, 71);
+          }
+
+          .container {
+               border: 2px solid green;
+               margin-top: 116px;
+               margin-left: 666px;
+               padding: 35px 75px;
+               width: 33%;
+               border-radius: 28px;
+          }
+
+          .form-group {
+               font-family: "Baloo Bhai 2", cursive;
+               text-align: center;
+               display: block;
+               width: 455px;
+               padding: 6px;
+               /* border: 2px solid rgb(245, 245, 245); */
+               margin: 1px auto;
+               border-radius: 12px;
+               font-size: 35px;
+          }
+
+          input {
+               font-family: "Baloo Bhai 2", cursive;
+               width: 455px;
+               height: 50px;
+               border-radius: 12px;
+               text-align: center;
+               font-size: 19px;
+               color: rgb(109, 91, 91);
+          }
+
+          input:hover {
+               color: rgb(34, 34, 34);
+               font-size: 35px;
+               background-color: rgb(185, 217, 227);
+               /* overflow: hidden; */
+          }
+
+          .container h1 {
+               text-align: center;
+          }
+
+          .container button {
+               display: block;
+               width: 43%;
+               margin: 22px auto;
+          }
+     </style>
+</head>
+
+<body>
+     <header class="header">
+          <!-- Left box for Logo -->
+          <div class="left">
+               <img src="logo1.jpg" alt="logo">
+               <div>Aryan's Club</div>
+          </div>
+          <!-- mid box for navigation -->
+          <div class="mid">
+               <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                    <li><a href="#">Contact Us"</a></li>
+          </div>
+          <!-- right box for buttons -->
+          <div class="right">
+               <button class="btn">Call Us Now</button>
+               <button class="btn">E mail Us</button>
+          </div>
+     </header>
+     <div class="container">
+          <h1> Join the best Gym Of Bhopal Now.</h1>
+          <form action="mailto:911aaryan@gmail.com" method="post" enctype="text/plain">
+               <div class="form-group">
+                    <input type="text" name="your name" value="" placeholder="Enter Your Name here">
+               </div>
+               <div class="form-group">
+                    <input type="text" name="your Locality" placeholder="Enter Your Locality">
+               </div>
+               <div class="form-group">
+                    <input type="number" name="your age" placeholder="Enter Your age">
+               </div>
+               <div class="form-group">
+                    <input type="email" name="youremail" placeholder="Enter Your E-mail">
+               </div>
+               <div class="form-group">
+                    <input type="number" name="yourphonenumber" placeholder="Enter Your Mob.No">
+               </div>
+               <button class="btn">Submit</button>
+
+          </form>
+     </div>
+
+</body>
+
+</html>
